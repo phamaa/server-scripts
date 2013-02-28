@@ -1,4 +1,4 @@
-apt-get install git-core solr-common zip unzip drush php5-gd
+apt-get install git-core solr-common zip unzip drush php5-gd php-cache
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 
 sudo useradd -d /home/quang.pham -m quang.pham
