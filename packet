@@ -11,6 +11,10 @@ Other way is open /etc/passwd file and change the shell /bin/sh to /bin/bash
 
 Drupal
 sudo chown www-data:www-data -R /var/www/drupal/sites
+https://help.ubuntu.com/community/Drupal
 
 Github
 https://help.github.com/articles/generating-ssh-keys
+
+Proxy
+https://help.ubuntu.com/8.04/serverguide/squid.html
