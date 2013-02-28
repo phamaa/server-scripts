@@ -8,3 +8,6 @@ sudo usermod -a -G www-data quang.pham
 
 Tab
 Other way is open /etc/passwd file and change the shell /bin/sh to /bin/bash 
+
+Drupal
+sudo chown www-data:www-data -R /var/www/drupal/sites
