@@ -1,0 +1,5 @@
+apt-get install git-core
+apt-get install solr-common
+zip
+unzip
+drush
