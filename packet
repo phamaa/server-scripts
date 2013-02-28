@@ -1,4 +1,4 @@
-apt-get install git-core solr-common zip unzip drush
+apt-get install git-core solr-common zip unzip drush php5-gd
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 
 sudo useradd -d /home/quang.pham -m quang.pham
@@ -11,3 +11,6 @@ Other way is open /etc/passwd file and change the shell /bin/sh to /bin/bash
 
 Drupal
 sudo chown www-data:www-data -R /var/www/drupal/sites
+
+Github
+https://help.github.com/articles/generating-ssh-keys
