@@ -1,5 +1,10 @@
-apt-get install git-core
-apt-get install solr-common
-zip
-unzip
-drush
+apt-get install git-core solr-common zip unzip drush
+sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
+
+sudo useradd -d /home/quang.pham -m quang.pham
+sudo passwd quang.pham
+sudo usermod -a -G sudo quang.pham
+sudo usermod -a -G www-data quang.pham
+
+Tab
+Other way is open /etc/passwd file and change the shell /bin/sh to /bin/bash 
