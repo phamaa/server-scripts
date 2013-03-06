@@ -1,5 +1,6 @@
 ==================
 Common
+tasksel
 apt-get install git-core solr-common zip unzip drush php5-gd php-cache php5-dev make
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 
@@ -25,6 +26,8 @@ Add the line "extension=uploadprogress.so" to php.ini
 ==================
 Github
 https://help.github.com/articles/generating-ssh-keys
+cd ~/.ssh && ssh-keygen -t rsa -C "me@quangpham.com" && git config --global user.email "me@quangpham.com" && git config --global user.name "Quang Pham"
+ssh -T git@github.com
 
 ==================
 Proxy
