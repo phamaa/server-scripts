@@ -4,10 +4,7 @@ tasksel
 apt-get install git-core solr-common zip unzip drush php5-gd php-cache php5-dev make
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 
-sudo useradd -d /home/quang.pham -m quang.pham
-sudo passwd quang.pham
-sudo usermod -a -G sudo quang.pham
-sudo usermod -a -G www-data quang.pham
+sudo useradd -d /home/quang -m quang && sudo usermod -a -G sudo quang && sudo usermod -a -G www-data quang && sudo passwd quang
 
 ==================
 Tab
