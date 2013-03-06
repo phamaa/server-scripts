@@ -1,3 +1,5 @@
+==================
+Common
 apt-get install git-core solr-common zip unzip drush php5-gd php-cache php5-dev make
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 
@@ -6,9 +8,11 @@ sudo passwd quang.pham
 sudo usermod -a -G sudo quang.pham
 sudo usermod -a -G www-data quang.pham
 
+==================
 Tab
 Other way is open /etc/passwd file and change the shell /bin/sh to /bin/bash 
 
+==================
 Drupal
 sudo chown www-data:www-data -R /var/www/drupal/sites
 https://help.ubuntu.com/community/Drupal
@@ -18,11 +22,25 @@ Open php.ini :
 $ sudo gedit /etc/php5/apache2/php.ini
 Add the line "extension=uploadprogress.so" to php.ini
 
-Restart apache:
-$ sudo /etc/init.d/apache2 restart 
-
+==================
 Github
 https://help.github.com/articles/generating-ssh-keys
 
+==================
 Proxy
 https://help.ubuntu.com/8.04/serverguide/squid.html
+
+==================
+Apache
+sudo a2enmod dump_io
+a2enmod dump_io
+
+open apache2.conf
+# enable this if you just want to capture http request
+DumpIOInput On
+# enable this if you just want to capture http response
+DumpIOOutput On
+# capture everything
+DumpIOLogLevel debug
+
+$ sudo /etc/init.d/apache2 restart 
