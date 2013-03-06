@@ -35,7 +35,6 @@ https://help.ubuntu.com/8.04/serverguide/squid.html
 Apache
 sudo sh -c 'echo "ServerName localhost" >> /etc/apache2/conf.d/name'
 sudo a2enmod dump_io
-a2enmod dump_io
 
 open apache2.conf
 # enable this if you just want to capture http request
