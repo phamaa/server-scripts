@@ -1,0 +1,57 @@
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7"
+   ServerName ganday.com
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7"
+   ServerName dev.ganday.com
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7"
+   ServerName test.ganday.com
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7"
+   ServerName test2.ganday.com
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7"
+   ServerName dev.dashboard.topcompetitors.net
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+   DocumentRoot "/home/quang.pham/drupal7/sites/dev.ganday.com/files/feed/fdvncrawl"
+   ServerName crawl.ganday.com
+        <Directory />
+                AllowOverride All
+        </Directory>
+</VirtualHost>
+
+
+<!-- <VirtualHost *:80>
+     ServerAdmin admin@example.org
+     ServerName example.org
+     ServerAlias www.example.org
+     DocumentRoot /srv/www/example.org/public_html/
+     ErrorLog /srv/www/example.org/logs/error.log
+     CustomLog /srv/www/example.org/logs/access.log combined
+</VirtualHost> -->
