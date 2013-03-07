@@ -45,9 +45,3 @@ DumpIOOutput On
 DumpIOLogLevel debug
 
 $ sudo /etc/init.d/apache2 restart 
-
-==================
-Mod-Security
-http://www.root25.com/2012/11/how-to-install-modsecurity-on-apache-ubuntu12-stepbystep-tutorial.html
-or 
-http://library.linode.com/web-servers/apache/mod-security#sph_ubuntu-debian
