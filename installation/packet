@@ -45,3 +45,8 @@ DumpIOOutput On
 DumpIOLogLevel debug
 
 $ sudo /etc/init.d/apache2 restart 
+
+==================
+Ruby
+sudo apt-get install apache2 curl git libmysqlclient-dev mysql-server nodejs
+
