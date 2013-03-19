@@ -49,4 +49,7 @@ $ sudo /etc/init.d/apache2 restart
 ==================
 Ruby
 sudo apt-get install apache2 curl git libmysqlclient-dev mysql-server nodejs
+\curl -L https://get.rvm.io | bash -s stable --ruby # Or, --ruby=1.9.3
+(https://rvm.io/)
+
 
